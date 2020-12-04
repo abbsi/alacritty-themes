@@ -13,6 +13,7 @@ const themePrompts = {
   name: "theme",
   message: "Select a theme:",
   source: searchThemes,
+  pageSize: 30,
 };
 
 function searchThemes(answers, input) {
